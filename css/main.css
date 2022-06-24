@@ -1,0 +1,133 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 65%;
+    background: url("/img/1.jpeg") no-repeat fixed center;
+}
+
+
+.margin{
+    top: 229px;
+}
+
+.margin_reg{
+    top: 229px;
+}
+
+.all_forms {
+    margin-top: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 595px;
+    height: auto;
+    background: aliceblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form h3 {
+    display: block;
+    margin-left: 124px;
+    margin-top: 29px;
+    width: 346px;
+    height: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: blueviolet;
+}
+
+label {
+    display: block;
+    margin-left: 54px;
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #484647;
+}
+input {
+
+    margin-top: 5px;
+    margin-left: 54px;
+    width:487px;
+    height: 54px;
+    background: none;
+    border: 1px solid #8f8f7f;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+::placeholder {
+    color: black;
+    opacity: 0.4;
+    padding-left: 5px;
+}
+
+.textarea{
+    margin-top: 5px;
+    margin-left: 3.375rem;
+    width: 480px;
+    height: 53px;
+    background: none;
+    border: 1px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.buttons {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+button.btn {
+    margin-top: 2.438rem;
+    width: 8.813rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: blueviolet;;
+    border: 1px solid #8f8f8f;
+    box-sizing: border-box;
+    opacity: 1;
+    font-style: normal;
+    font-weight: 601;
+    font-size: 20px;
+    line-height: 33px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    margin-top: 5px;
+    display: block;
+    margin-left: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+}
+
+.msg {
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    border-color: black;
+    color: #22c53d;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
