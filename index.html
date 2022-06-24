@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gogoasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        function showDiv() {
+            document.getElementById('tab').style.display = "block";
+        }
+        function prevent(){
+            alert("Ai grijă pe când navighezi, nu toate paginile sunt prietenoase!!!")
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Start</a></li>
+            <li class="nav-item"><a class="nav-link active" href="paragraf_1.html">Pagina 1</a></li>
+            <li class="nav-item"><a class="nav-link active" href="paragraf_2.html">Pagina 2</a></li>
+            <li class="nav-item"><a class="nav-link active" href="paragraf_3.html">Pagina 3</a></li>
+            <li class="nav-item"><a class="nav-link active" href="paragraf_4.html">Pagina 4</a></li>
+            <li class="nav-item"><a class="nav-link active" href="paragraf_5.html">Pagina 5</a></li>
+            <li class="nav-item"><a class="nav-link active" href="sfarsit.html">Sfâșit</a></li>
+            <li class="nav-item"><a class="nav-link active" href="personaje.php">CRUD</a></li>
+            <li class="nav-item"><a class="nav-link active" href="register.html">Inregistrare</a></li>
+            <li class="nav-item"><a class="nav-link active" href="login.html">Logare</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link active" href="cookie.php">Check login</a></li>
+            <li class="nav-item"><a class="nav-link active" href="minus.php">Exit login</a></li>
+        </ul>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5"><h1>Povestea Gogoaşei</h1></div>
+
+    <div class="text-center mt-2">
+        <div>
+        <img src="img/original.jpg" alt=""><br>
+        </div>
+            <div class="mt-4">
+            <a href="paragraf_1.html">
+                <button class="btn btn-primary">Dă start citirii</button>
+            </a>
+            <a href="https://www.google.com/" target="_blank">
+                <button class="btn btn-primary" onclick="prevent()">Am citit povestea, am nevoie de alta!</button>
+            </a>
+            <input class="btn btn-primary"  id="sw" type="button" value="Arată perosonajele" onclick="showDiv()"/>
+        </div>
+    </div>
+    <div class="mt-3" style="display: none" id="tab">
+        <table class="table" border = "1" cellpadding = "5" cellspacing = "5" bgcolor="#DAA49A">
+            <tr>
+                <th>Personajele</th>
+            </tr>
+            <tr>
+                <td>Gogoașa</td>
+            </tr>
+            <tr>
+                <td>Baba</td>
+            </tr>
+            <tr>
+                <td>Moșul</td>
+            </tr>
+            <tr>
+                <td>Iepurile</td>
+            </tr>
+            <tr>
+                <td>Lupul</td>
+            </tr>
+            <tr>
+                <td>Ursul</td>
+            </tr>
+            <tr>
+                <td>Vulpea</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
