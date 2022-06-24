@@ -36,3 +36,14 @@ body {
 
     margin-left: 50%;
 }
+
+.reg {
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border: #845EC2 solid;
+    background: aliceblue;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 10px
+}
